@@ -135,6 +135,32 @@ header {
   border-radius: 8px;
 }
 
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+.rodape__img {
+  display: flex;
+  gap: 5rem;
+}
+.rodape__cartao-corpo {
+  border-radius: 8px;
+  height: 5rem;
+}
+.rodape__redes i {
+  font-size: 2.2rem;
+  width: 4rem;
+  height: 4rem;
+}
+.rodape__logo {
+  width: 10rem;
+}
+.rodape .card-img-top {
+  width: 18rem;
+}
+
 @media (max-width: 768px) {
   .sobre-container {
     flex-direction: column;
