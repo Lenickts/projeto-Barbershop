@@ -11,7 +11,7 @@ Este projeto foi desenvolvido **exclusivamente para fins educacionais**, com os 
 ## 🎨 Design Original
 
 O layout e identidade visual foram baseados no projeto Figma:
-[https://www.figma.com/design/npKqDdWk6rd1lR0O5xuStO/Site-de-barbearia--Community-?node-id=1-180&t=uumy29Ta4nOKerxu-0]
+[Projeto](https://www.figma.com/design/npKqDdWk6rd1lR0O5xuStO/Site-de-barbearia--Community-?node-id=1-180&t=uumy29Ta4nOKerxu-0)
 
 **Atenção:** Todos os direitos autorais criativos pertencem integralmente ao(a) autor(a) original do projeto no Figma. Este repositório serve apenas como material de estudo e não possui fins comerciais.
 
