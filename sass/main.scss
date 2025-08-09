@@ -1,0 +1,9 @@
+@use "variaveis" as *;
+
+// Importa meus arquivos
+@use "mixins";
+@use "conteudo";
+@use "media-768px";
+
+// Importa Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

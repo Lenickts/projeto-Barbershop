@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sass": "sass sass/main.scss css/estilo.css",
+    "sass:watch": "sass --watch sass/main.scss css/estilo.css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}

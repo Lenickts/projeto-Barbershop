@@ -1,0 +1,10 @@
+@mixin gradiente {
+    background: linear-gradient(to bottom,
+        rgba(13, 18, 30, 1) 0%,
+        rgba(13, 18, 30, 0.89) 18%,
+        rgba(13, 18, 30, 0.51) 51%,
+        rgba(13, 18, 30, 1) 80%,
+        rgba(13, 18, 30, 1) 100%
+    );
+    color: #fff;
+}

@@ -1,0 +1,137 @@
+@use "mixins";
+
+$cor-de-fundo: #080B16;
+
+// Reset de estilo do navegador
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    @include mixins.gradiente;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sobre-container{
+    background-color: $cor-de-fundo;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    gap: 40px;
+    align-items: center;
+    .sobre-row{
+        order: 1;
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+        flex: 1;
+        padding: 20px;
+        h3{
+            font-size: 36px;
+        }
+    }
+    .sobre-img{
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        .imagem {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .imagem-grande {
+            grid-column: span 2;
+            height: 250px;
+        }
+    }
+}
+.servicos-img, .equipe-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .card{
+        width: 18rem;
+        border-radius: 8px 15px;
+        box-shadow: 0 8px 20px rgb(0, 0, 0);
+        .card-body{
+            display: flex;
+            justify-content: space-between;
+            height: 3rem;
+            align-items: center;
+        }
+        .card-body p{
+            padding-top: 10px;
+            
+        }
+        .card-text-preco{
+            background-color: black;
+            border-radius: 8px;
+        }
+    }
+}
+.equipe{
+    background-color: $cor-de-fundo;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    &__titulo{
+        color: #646464;
+        writing-mode: vertical-lr; // Texto na vertical
+        transform: rotate(180deg); // Gira 180 graus
+        text-align: center;
+        margin: 0;
+        padding: 1rem 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+.equipe__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .card{
+        background-color: $cor-de-fundo;
+        width: 18rem;
+        border-radius: 8px 15px;
+        box-shadow: 0 8px 20px rgb(0, 0, 0);
+        .card-body{
+            display: flex;
+            justify-content: space-between;
+            height: 3rem;
+            align-items: center;
+            &__link{
+                color: white;
+            }
+        }
+        .card-body p{
+            padding-top: 10px;
+            
+        }
+        .card-text-preco{
+            background-color: black;
+            border-radius: 8px;
+        }
+    }
+}
