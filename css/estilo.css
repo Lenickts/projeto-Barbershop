@@ -22,7 +22,7 @@ header {
   text-align: center;
 }
 
-.sobre-container {
+.sobre {
   background-color: #080B16;
   display: flex;
   width: 100%;
@@ -31,7 +31,7 @@ header {
   gap: 40px;
   align-items: center;
 }
-.sobre-container .sobre-row {
+.sobre .sobre-row {
   order: 1;
   width: 50%;
   margin: 0 auto;
@@ -39,23 +39,23 @@ header {
   flex: 1;
   padding: 20px;
 }
-.sobre-container .sobre-row h3, .sobre-container .sobre-row .h3 {
+.sobre .sobre-row h3, .sobre .sobre-row .h3 {
   font-size: 36px;
 }
-.sobre-container .sobre-img {
+.sobre .sobre-img {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
 }
-.sobre-container .sobre-img .imagem {
+.sobre .sobre-img .imagem {
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.sobre-container .sobre-img .imagem-grande {
+.sobre .sobre-img .imagem-grande {
   grid-column: span 2;
   height: 250px;
 }
@@ -162,8 +162,16 @@ header {
 }
 
 @media (max-width: 768px) {
-  .sobre-container {
+  .header__titulo {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .sobre {
     flex-direction: column;
+  }
+  .sobre__titulo {
+    text-align: center;
+    font-size: 2rem;
   }
   .imagens-sobre {
     width: 100%;

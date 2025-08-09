@@ -1,9 +1,17 @@
+@use "mixins";
+
 @media (max-width: 768px) {
-    .sobre-container {
-        flex-direction: column;
-        width: 100%;
+    .header__titulo{
+        @include mixins.titulo; 
     }
     
+    .sobre {
+        flex-direction: column;
+
+        &__titulo{
+            @include mixins.titulo;            
+        }
+    }    
     .imagens-sobre {
         width: 100%;
     }
