@@ -39,8 +39,8 @@ header {
   flex: 1;
   padding: 20px;
 }
-.sobre__container h3, .sobre__container .h3 {
-  font-size: 36px;
+.sobre__titulo {
+  font-size: 2.5rem;
 }
 .sobre .sobre-img {
   flex: 1;
@@ -172,6 +172,10 @@ header {
   .sobre__titulo {
     text-align: center;
     font-size: 2rem;
+  }
+  .sobre__container {
+    width: 100%;
+    order: -1;
   }
   .imagens-sobre {
     width: 100%;
