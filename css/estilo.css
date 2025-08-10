@@ -31,7 +31,7 @@ header {
   gap: 40px;
   align-items: center;
 }
-.sobre .sobre-row {
+.sobre__container {
   order: 1;
   width: 50%;
   margin: 0 auto;
@@ -39,7 +39,7 @@ header {
   flex: 1;
   padding: 20px;
 }
-.sobre .sobre-row h3, .sobre .sobre-row .h3 {
+.sobre__container h3, .sobre__container .h3 {
   font-size: 36px;
 }
 .sobre .sobre-img {

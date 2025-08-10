@@ -32,7 +32,7 @@ header {
     padding: 40px 20px;
     gap: 40px;
     align-items: center;
-    .sobre-row{
+    &__container{
         order: 1;
         width: 50%;
         margin: 0 auto;
