@@ -15,4 +15,33 @@
     .imagens-sobre {
         width: 100%;
     }
+    .imagem-grande {
+        height: 250px;
+        width: 23rem;
+    }
+    .servicos__titulo{
+        @include mixins.titulo;
+    }
+    .servicos__img, .equipe__img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .equipe{
+        flex-direction: column;
+
+        &__titulo{
+            writing-mode: horizontal-tb; // Volta ao padrão (horizontal)
+            transform: none; // Remove a rotação
+        }
+    }
+    .rodape{
+
+        &__img{
+            flex-direction: column;
+        }
+        &__logo{
+            margin-bottom: 3cm;
+        }
+
+    }
 }
